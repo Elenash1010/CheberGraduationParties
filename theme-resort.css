@@ -1,0 +1,292 @@
+/* Resort visual direction: deep blue, sunny orange, soft organic shapes. */
+:root{--blue:#0960ad;--ink:#082956;--wash:#f0f7ff;--line:#e0ebf7;--orange:#ff8000}
+body{color:var(--ink);background:#fff}
+h1,h2,h3,.place-section h2,.programs-content h2,.programs-section .card-body h3,.journey-section h2,.journey-section .steps h3,.request-layout h2{color:var(--ink);font-weight:800}
+.button{border-radius:18px;background:#075fae;border-color:#075fae;box-shadow:0 5px 14px #095da510;font-size:17px;padding:18px 25px}
+.button:hover{background:#074c8b;border-color:#074c8b}
+.outline{border-radius:13px;border-color:#7ca8d7;color:#075fae}
+.outline:hover{background:#e8f3ff}
+.header{height:98px;gap:24px}.brand img{max-width:190px;max-height:64px}.header nav{font-size:15px;font-weight:700}.header .phone{display:flex;align-items:center;gap:8px;border:1.5px solid var(--blue);border-radius:17px;padding:8px 14px;color:var(--blue);font-weight:700;white-space:nowrap}.header .phone::before{content:'☎';font:22px/1 Arial}.header .small{display:none}
+.hero{padding-top:38px;column-gap:38px;row-gap:28px;grid-template-columns:.9fr 1.2fr;align-items:center}
+.hero .eyebrow{margin-bottom:18px}.hero h1{font-size:clamp(48px,5.4vw,74px);font-weight:800;line-height:1.02;letter-spacing:-.045em}.hero h1 span{color:var(--orange);font-size:1.28em;line-height:1.03;margin-top:6px;position:relative;width:max-content}
+.hero-sparks{display:inline-block;position:absolute;width:38px;height:50px;right:-49px;top:24%;background:var(--orange);clip-path:polygon(4% 5%,15% 0,42% 32%,31% 38%,4% 5%,100% 39%,100% 51%,48% 53%,47% 42%,100% 39%,74% 100%,62% 100%,33% 66%,42% 59%,74% 100%)}
+.hero .lead{font-family:Raleway,Arial,sans-serif;font-size:clamp(21px,2.2vw,29px);font-weight:700;line-height:1.2;margin-top:14px}.hero .intro{font-size:15px;line-height:1.4;margin-top:16px;max-width:380px}.hero .actions{margin-top:25px;gap:15px}.hero .actions>.text-link{font-size:12px}.hero .button{gap:20px;min-height:60px}
+.hero-visual{overflow:visible;background:#1f68ac;border-radius:37% 12% 23% 14%;min-height:485px;isolation:isolate;margin:15px 0 10px}
+.hero-visual::before{content:'';position:absolute;inset:-16px -10px 18px 25px;background:#2267ae;border-radius:42% 10% 24% 14%;transform:rotate(-5deg);z-index:-1}
+#hero-image>img{border-radius:37% 12% 23% 14%;object-fit:cover;object-position:75% center;transform:none}
+.hero-bottom.hero-benefits{background:linear-gradient(110deg,#2165aa,#07539b);border:0;border-radius:22px;padding:26px 30px;margin-top:12px;box-shadow:0 7px 22px #0a529b12}
+.hero-benefits ul{gap:25px 24px}.hero-benefits li{color:#fff;gap:14px;font-size:17px;align-items:center}.hero-benefit-icon{background:none;border:0;box-shadow:none;width:48px;height:52px;flex-basis:48px;border-radius:0}.hero-benefit-icon svg{width:43px;height:43px;filter:none}.hero-benefits .hero-benefits-next{display:none}
+.place-section{padding-top:52px}.place-section h2{font-size:clamp(29px,3.5vw,44px);margin-bottom:30px}.place-section .place-story-copy p{color:var(--ink)}.place-section .place-mosaic .media,.place-section .place-mosaic .main-place{border-radius:26px}.place-section .place-squirrel{filter:drop-shadow(0 7px 3px #09294b0b)}
+.programs-section{padding-top:30px;padding-bottom:44px}.programs-content h2{font-size:clamp(29px,3.2vw,42px)}.programs-section .program-card{border-radius:26px;box-shadow:0 8px 28px #173d6b0b}.programs-section .program-card .media{border-radius:19px}.programs-section .card-body h3{color:var(--ink)}
+.dining{padding-top:65px;padding-bottom:65px}.dining h2{font-size:clamp(29px,3.1vw,40px)}.dining-media{border-radius:26px 90px 26px 26px}.condition-row h3{color:#075fae}.condition-row p{color:#48617d}
+.gallery .media{border-radius:24px}.section-heading .eyebrow{color:#2165aa}.journey-panel{background:#eaf3ff;border-radius:25px}.journey-section h2{color:var(--ink)}.journey-section .steps article>span{background:#0960ad}.journey-section .steps h3{color:var(--ink)}
+.faq-card{border-radius:18px;box-shadow:none;border-color:#d8e6f5}.faq-card summary{color:var(--ink);font-size:19px}.faq-card summary::after{color:var(--orange)}
+.request-section{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(115deg,#2269ad,#09549b);padding-top:48px;padding-bottom:32px;border:0}
+.request-section::before,.request-section::after{content:'';position:absolute;z-index:-1;width:105px;height:105px;border:7px double #8ec6ff45;transform:rotate(45deg);pointer-events:none}.request-section::before{left:-30px;bottom:45px}.request-section::after{right:-40px;top:25px}
+.request-layout{gap:30px;grid-template-columns:minmax(0,1fr) minmax(0,.85fr) minmax(0,1.15fr);align-items:center}.request-layout .request-copy{padding-top:8px;align-self:center}.request-layout h2{color:#fff;font-size:clamp(31px,3.8vw,46px);line-height:1.05}.request-layout .request-copy>p{color:#fff;font-size:18px;line-height:1.4;margin-top:22px}.request-copy a[href^="tel:"]{color:#fff;font-size:clamp(32px,3.7vw,46px);margin:16px 0 20px;font-weight:800}.request-copy a[href^="tel:"]::before{content:'☎';font-family:Arial,sans-serif;font-size:.75em;margin-right:10px}.request-copy a:hover{text-decoration:underline}.request-layout form{padding:28px;border-radius:26px;box-shadow:0 12px 30px #05326320;border:0}.request-layout .field label{color:#10213b}.request-layout .submit{background:var(--orange);border-color:var(--orange);border-radius:16px;font-size:15px;min-height:58px}.request-layout .submit:hover{background:#e76e00;border-color:#e76e00}.request-layout input,.request-layout select{border-color:#b6cde8}.request-squirrel{filter:drop-shadow(0 9px 5px #06305b2b)}
+footer{background:#fff}.footer-bottom{color:#647a91}.mobile-bar .button{background:var(--blue)}
+@media(min-width:1500px){.hero{gap:36px}.hero-visual{min-height:540px}}
+@media(max-width:1100px){.header{gap:15px}.header nav{gap:14px;font-size:13px}.brand img{max-width:165px}.header .phone{font-size:14px;padding:8px 10px}.hero{column-gap:24px}.hero-visual{min-height:460px}.hero .actions{flex-wrap:wrap}.hero-benefits li{font-size:15px}.request-layout{gap:20px}.request-layout form{padding:22px}.request-layout .request-copy>p{font-size:16px}}
+@media(max-width:760px){.header{height:80px}.brand img{max-width:155px;max-height:52px}.header nav{display:none}.header .phone{margin-left:auto;font-size:13px;gap:4px;padding:7px 9px}.header .phone::before{font-size:17px}.hero{padding-top:28px;grid-template-columns:1fr;gap:30px}.hero h1{font-size:clamp(45px,10vw,65px)}.hero .lead{font-size:23px}.hero .intro{font-size:15px}.hero .actions{align-items:stretch}.hero .actions>.text-link{font-size:14px}.hero-visual{min-height:350px;margin:0 8px 4px 0}.hero-visual::before{inset:-9px -8px 15px 20px}.hero-bottom.hero-benefits{padding:24px 18px;margin-top:0;border-radius:20px}.hero-benefits ul{gap:22px 14px}.hero-benefits li{font-size:14px;flex-direction:row;align-items:center;gap:8px}.hero-benefit-icon{width:35px;height:40px;flex-basis:35px}.hero-benefit-icon svg{width:33px;height:33px}.place-section{padding-top:35px}.place-section h2{font-size:29px}.place-section .place-mosaic .media,.place-section .place-mosaic .main-place{border-radius:18px}.request-section{padding-top:30px}.request-layout{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:24px 14px}.request-layout h2{font-size:31px}.request-layout .request-copy>p{font-size:15px}.request-copy a[href^="tel:"]{font-size:30px}.request-copy a[href^="tel:"]::before{margin-right:5px}.request-layout form{grid-column:1/-1;padding:24px}.request-layout .request-copy{align-self:center}.request-squirrel{align-self:end}.gallery .media{border-radius:18px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+
+/* The middle follows the same blue and orange resort identity. */
+.programs-section{position:relative;background:linear-gradient(180deg,#f0f7ff,#e8f3ff);padding-top:36px;padding-bottom:66px}
+.programs-content h2::after,.dining h2::after,#photos h2::after,.journey-section h2::after,.common-faq h2::after{content:'';display:block;width:58px;height:5px;border-radius:5px;background:var(--orange);margin-top:18px}
+.programs-content{padding-bottom:12px}
+.programs-section .program-card{padding:15px;border:1px solid #fff;box-shadow:0 9px 28px #0b458414;transition:box-shadow .2s,transform .2s}
+.programs-section .program-card:hover{box-shadow:0 14px 35px #0b458420;transform:translateY(-3px)}
+.programs-section .program-card .media{position:relative;aspect-ratio:1.8/1}
+.programs-section .media-label{display:block;top:12px;left:12px;background:#fff;color:#075aa5;font-size:11px;font-weight:700;letter-spacing:.03em;padding:7px 11px;box-shadow:0 3px 12px #08295612}
+.programs-section .card-body{padding:17px 5px 5px}
+.programs-section .card-body h3{font-size:29px}
+.programs-section .card-body p{color:#47617d;line-height:1.45;font-size:16px}
+.programs-section .card-body .outline{background:#ff8000;border:1px solid #ff8000;color:#fff;min-height:50px;border-radius:14px;font-size:14px;font-family:Raleway,Arial,sans-serif;font-weight:700;box-shadow:0 5px 12px #ff80001a}
+.programs-section .card-body .outline:hover{background:#e97000;border-color:#e97000}
+#family{background:#fff;position:relative}
+.dining{gap:56px;padding-top:76px;padding-bottom:76px;align-items:center}
+.dining-media{min-height:530px;box-shadow:-12px 12px 0 #eaf3ff;border-radius:28px 95px 28px 28px}
+.dining .eyebrow{margin-bottom:17px;color:#1761a8}
+.dining h2{line-height:1.13}
+.conditions{margin-top:26px;border:1px solid #e1ebf5;border-radius:20px;background:#f6faff;overflow:hidden;padding:2px 20px}
+.condition-row{position:relative;padding:18px 0 18px 16px;grid-template-columns:112px 1fr;border-color:#e0ebf6;gap:15px}
+.condition-row:first-child{border-top:0}
+.condition-row::before{content:'';position:absolute;left:0;top:25px;width:6px;height:6px;border-radius:50%;background:var(--orange)}
+.condition-row h3{font-size:14px;line-height:1.4;color:#075ba5;font-weight:700}
+.condition-row p{font-size:15px;line-height:1.4;color:#47617d}
+.dining .actions{gap:12px;margin-top:24px}
+.dining .outline{background:#fff;border-color:#a7c6e7;min-height:46px;padding:12px 15px;font-size:12px}
+.dining .outline:hover{border-color:#ff8000;background:#fff6ec}
+#photos{padding-top:64px;padding-bottom:64px;border-top:1px solid #e8eff7}
+#photos .section-heading{align-items:center;margin-bottom:32px}
+#photos .section-heading>p{font-size:15px;max-width:230px;color:#698099}
+#photos .gallery{grid-template-columns:1.25fr 1fr 1fr;gap:20px}
+#photos .gallery .media{min-height:290px;border:0;padding:0;box-shadow:0 5px 18px #0a3a7010;isolation:isolate}
+#photos .gallery .media::after{content:'';position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#062851b8);pointer-events:none}
+.gallery-caption{position:absolute;z-index:1;left:20px;right:20px;bottom:20px;display:flex;align-items:center;justify-content:space-between;color:#fff;font:700 17px/1.3 Raleway,Arial,sans-serif;text-align:left;gap:10px}
+.gallery-caption>span{display:grid;place-items:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:var(--orange);color:#fff;font:23px/1 Arial,sans-serif}
+.journey-section{padding-top:50px;padding-bottom:55px}
+.journey-section>.wrap{padding-top:30px;border-top:1px solid #e8eff7}
+.journey-section h2{margin-bottom:38px}
+.journey-panel{background:linear-gradient(110deg,#eaf4ff,#f3f8ff);border:1px solid #dceafb;border-radius:25px;box-shadow:0 7px 24px #0a3c7010}
+.journey-section .steps{padding-top:38px;padding-bottom:38px}
+.journey-section .steps article>span{width:29px;height:29px;background:var(--orange);box-shadow:0 4px 10px #ff800026;color:#fff}
+.journey-section .steps article:not(:last-child)::after{color:var(--orange)}
+.journey-section .steps h3{font-size:18px;line-height:1.25}
+.journey-section .steps p{font-size:15px;color:#52708d;line-height:1.4}
+.common-faq{padding-top:55px;padding-bottom:70px}
+.common-faq .section-heading{margin-bottom:30px;align-items:center}
+.common-faq .section-heading>p{font-size:15px;color:#698099}
+.common-faq-grid{gap:16px}
+.faq-card{background:#f7fbff;border:1px solid #deebf8;border-radius:18px;transition:background .2s,border-color .2s}
+.faq-card summary{font-size:17px;padding:23px 58px 23px 22px;min-height:100px;line-height:1.35}
+.faq-card summary::after{right:18px;top:24px;width:27px;height:27px;display:grid;place-items:center;background:#fff0df;border-radius:50%;font-size:23px;line-height:1;color:#ef7800}
+.faq-card:hover{border-color:#a4c6e8}
+.faq-card[open]{background:#fff;border-color:#ffb666;box-shadow:0 5px 16px #ff80000a}
+.faq-card[open] summary::after{background:var(--orange);color:#fff}
+.faq-card p{font-size:16px;color:#52708d;padding:0 22px 24px;line-height:1.5}
+.faq-footnote{font-size:13px;color:#698099;border-left:3px solid #ffab55;padding-left:14px}
+@media(max-width:1000px){.dining{gap:32px}.conditions{padding:2px 14px}.condition-row{grid-template-columns:96px 1fr;gap:10px}.condition-row p{font-size:14px}.dining-media{min-height:500px}.programs-section .card-body h3{font-size:25px}.programs-section .card-body p{font-size:15px}#photos .gallery{gap:15px}#photos .gallery .media{min-height:260px}.gallery-caption{font-size:15px;left:16px;right:16px;bottom:16px}}
+@media(max-width:760px){.programs-section{padding-top:25px;padding-bottom:40px}.programs-content h2::after,.dining h2::after,#photos h2::after,.journey-section h2::after,.common-faq h2::after{width:44px;height:4px;margin-top:14px}.programs-section .program-card{padding:11px}.programs-section .media-label{top:8px;left:8px;font-size:9px;padding:5px 8px}.programs-section .card-body{padding:13px 2px 2px}.programs-section .card-body h3{font-size:23px}.programs-section .card-body p{font-size:14px}.programs-section .card-body .outline{font-size:12px;min-height:46px}.dining{padding-top:46px;padding-bottom:46px;gap:30px}.dining-media{min-height:310px;box-shadow:-7px 7px 0 #eaf3ff;border-radius:22px 65px 22px 22px}.conditions{padding:2px 14px}.condition-row{grid-template-columns:95px 1fr;padding-top:16px;padding-bottom:16px}.condition-row h3{font-size:13px}.condition-row p{font-size:14px}.condition-row::before{top:23px}.dining .outline{font-size:13px}#photos{padding-top:40px;padding-bottom:40px}#photos .gallery{grid-template-columns:1fr 1fr;gap:12px}#photos .gallery .media{min-height:205px}#photos .gallery .media:first-child{grid-column:1/-1;min-height:245px}.gallery-caption{font-size:14px;left:13px;right:13px;bottom:14px}.gallery-caption>span{width:27px;height:27px;flex-basis:27px;font-size:20px}.journey-section{padding-top:35px;padding-bottom:35px}.journey-section .steps{padding:30px 23px}.journey-section .steps h3{font-size:19px}.journey-section .steps p{font-size:15px}.common-faq{padding-top:35px;padding-bottom:45px}.faq-card summary{min-height:82px;font-size:17px;padding-top:21px;padding-bottom:21px}.faq-card summary::after{top:21px}.faq-card p{font-size:15px}}
+@media(max-width:420px){.programs-section .card-body h3{font-size:26px}.programs-section .card-body p{font-size:16px}.programs-section .card-body .outline{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.programs-section .program-card:hover{transform:none}}
+
+/* Asymmetric blue backing behind the venue photo collage. */
+.place-section .place-mosaic{position:relative;isolation:isolate}
+.place-section .place-mosaic::before{content:'';position:absolute;z-index:-1;inset:-13px -12px 57px 12px;background:linear-gradient(135deg,#226bb5,#07539b);border-radius:65px 35px 75px 28px;transform:rotate(-2deg);pointer-events:none}
+@media(max-width:640px){.place-section .place-mosaic::before{inset:-8px -7px 11px 8px;border-radius:36px 23px 43px 20px;transform:rotate(-2deg)}}
+
+/* Give the collage backing a little more visible space. */
+.place-section .place-mosaic::before{inset:-22px -20px 47px 4px}
+@media(max-width:640px){.place-section .place-mosaic::before{inset:-13px -11px 5px 3px}}
+
+/* Matching asymmetric blue backing for program and family photos. */
+.programs-section .program-card .media{overflow:visible;isolation:isolate;margin:4px 3px 7px}
+.programs-section .program-card .media::before{content:'';position:absolute;inset:-6px -5px -5px 2px;z-index:-1;background:linear-gradient(135deg,#226bb5,#07539b);border-radius:28px 16px 31px 15px;transform:rotate(-2deg);pointer-events:none}
+.programs-section .program-card .media img{border-radius:19px}
+.programs-section .program-card:nth-child(2) .media::before{transform:rotate(2deg);border-radius:17px 29px 17px 31px}
+#dining-image{overflow:visible;isolation:isolate;box-shadow:none}
+#dining-image::before{content:'';position:absolute;inset:-15px -12px -13px 7px;z-index:-1;background:linear-gradient(135deg,#226bb5,#07539b);border-radius:35px 100px 40px 28px;transform:rotate(-2deg);pointer-events:none}
+#dining-image img{border-radius:inherit}
+@media(max-width:760px){.programs-section .program-card .media::before{inset:-5px -4px -4px 1px}#dining-image::before{inset:-10px -8px -9px 4px;border-radius:28px 70px 32px 22px}}
+
+/* Programs: two calm aligned cards on one asymmetric backing. */
+.programs-section{padding-top:44px;padding-bottom:58px;background:linear-gradient(180deg,#f0f7ff,#eaf4ff)}
+.programs-layout{grid-template-columns:minmax(0,2.5fr) minmax(170px,.8fr);gap:28px;align-items:end}
+.programs-content{position:relative;padding-bottom:12px}
+.programs-content h2{font-size:clamp(29px,3vw,40px);line-height:1.15;margin-bottom:32px}
+.programs-section .programs{position:relative;isolation:isolate;gap:22px}
+.programs-section .programs::before{content:'';position:absolute;z-index:-1;inset:12px -10px -10px 8px;background:linear-gradient(120deg,#246db4,#09549c);border-radius:33px 38px 38px 26px;transform:rotate(-1.2deg);pointer-events:none}
+.programs-section .program-card{padding:13px;border-radius:23px;border:1px solid #e2ecf7;box-shadow:0 6px 16px #123b6710;overflow:hidden;transform:none;transition:box-shadow .2s}
+.programs-section .program-card:hover{transform:none;box-shadow:0 9px 22px #123b6719}
+.programs-section .program-card .media{margin:0;overflow:hidden;aspect-ratio:1.8/1;border-radius:16px}
+.programs-section .program-card .media::before{display:none}
+.programs-section .program-card .media img{border-radius:16px}
+.programs-section .media-label{top:11px;left:11px;font-size:10px;letter-spacing:.02em;padding:6px 10px;box-shadow:none}
+.programs-section .card-body{padding:18px 7px 7px;gap:0}
+.programs-section .card-body h3{font-size:27px;line-height:1.2;letter-spacing:-.025em}
+.programs-section .card-body p{font-family:'PT Sans',Arial,sans-serif;font-size:16px;line-height:1.45;color:#47617d;margin-top:10px}
+.programs-section .card-body p:last-of-type{margin-bottom:23px}
+.programs-section .card-body .outline{min-height:48px;border-radius:12px;font-size:13px;box-shadow:none}
+.programs-squirrel{width:113%;height:auto;max-height:570px;object-fit:contain;object-position:center bottom;margin-left:-7%;align-self:end}
+@media(min-width:1500px){.programs-squirrel{width:113%;margin-left:-7%;max-height:620px}}
+@media(max-width:1000px) and (min-width:761px){.programs-layout{grid-template-columns:minmax(0,2.6fr) minmax(145px,.75fr);gap:20px}.programs-section .programs{gap:16px}.programs-section .program-card{padding:10px}.programs-section .card-body{padding:14px 3px 4px}.programs-section .card-body h3{font-size:24px}.programs-section .card-body p{font-size:14px}.programs-section .card-body .outline{font-size:12px}.programs-squirrel{max-height:470px}}
+@media(max-width:760px){.programs-section{padding-top:30px;padding-bottom:40px}.programs-layout{grid-template-columns:1fr;gap:22px}.programs-content{grid-column:1;grid-row:1;padding-bottom:12px}.programs-content h2{font-size:29px;margin-bottom:25px}.programs-section .programs{gap:15px}.programs-section .programs::before{inset:9px -5px -8px 5px;transform:rotate(-1deg);border-radius:25px}.programs-section .program-card{padding:10px;border-radius:20px}.programs-section .card-body{padding:14px 3px 4px}.programs-section .card-body h3{font-size:23px}.programs-section .card-body p{font-size:14px}.programs-section .card-body .outline{font-size:12px}.programs-squirrel{grid-column:1;grid-row:2;justify-self:end;width:170px;max-width:50%;max-height:270px;margin:0 10px -15px auto}}
+@media(max-width:520px){.programs-section .programs{grid-template-columns:1fr;gap:18px}.programs-section .program-card .media{aspect-ratio:1.9/1}.programs-section .card-body h3{font-size:26px}.programs-section .card-body p{font-size:16px}.programs-section .card-body .outline{font-size:14px}.programs-squirrel{display:none}}
+
+/* Family photo mirrors the hero frame dimensions, remaining on the left. */
+.dining{grid-template-columns:1.2fr .9fr;gap:38px;align-items:center}
+#dining-image{min-height:485px;height:485px;margin:15px 0 10px;background:#1f68ac;border-radius:37% 12% 23% 14%;overflow:visible;isolation:isolate;box-shadow:none}
+#dining-image::before{inset:-16px -10px 18px 25px;background:#2267ae;border-radius:42% 10% 24% 14%;transform:rotate(-5deg);z-index:-1}
+#dining-image img{border-radius:37% 12% 23% 14%;object-fit:cover;object-position:center top}
+.dining>div:last-child{min-width:0}
+.dining h2{font-size:clamp(27px,2.7vw,36px);line-height:1.12}
+.dining h2 br{display:none}
+.dining .eyebrow{font-size:11px;margin-bottom:15px}
+.dining .conditions{margin-top:23px;padding:2px 15px}
+.dining .condition-row{grid-template-columns:91px 1fr;gap:12px;padding-top:15px;padding-bottom:15px}
+.dining .condition-row h3{font-size:13px}
+.dining .condition-row p{font-size:14px;line-height:1.4}
+.dining .condition-row::before{top:22px}
+.dining .actions{display:grid;grid-template-columns:1fr;gap:10px;margin-top:20px}
+.dining .outline{width:100%;font-size:13px;min-height:44px}
+@media(min-width:1500px){.dining{gap:36px}#dining-image{min-height:540px;height:540px}}
+@media(max-width:1100px) and (min-width:761px){.dining{gap:24px}#dining-image{min-height:460px;height:460px}.dining h2{font-size:29px}.dining .conditions{padding:2px 12px}.dining .condition-row{grid-template-columns:1fr;gap:5px;padding-top:12px;padding-bottom:12px}.dining .condition-row::before{top:19px}.dining .condition-row p{font-size:13px}.dining .outline{font-size:12px}}
+@media(max-width:760px){.dining{grid-template-columns:1fr;gap:34px}#dining-image{min-height:350px;height:350px;margin:0 8px 4px 0}#dining-image::before{inset:-9px -8px 15px 20px;border-radius:42% 10% 24% 14%}.dining h2{font-size:29px}.dining .condition-row{grid-template-columns:95px 1fr;gap:10px}.dining .condition-row p{font-size:14px}.dining .actions{grid-template-columns:1fr}.dining .outline{font-size:13px}}
+
+/* Brand ornament replaces the generic diamond decorations. */
+.request-section::before,.request-section::after{width:150px;height:150px;border:0;border-radius:0;transform:none;background:url("asset-14.svg") center/contain no-repeat;opacity:.25}
+.request-section::before{left:-28px;bottom:42px}
+.request-section::after{right:-32px;top:22px}
+@media(max-width:760px){.request-section::before,.request-section::after{width:125px;height:125px}.request-section::before{left:-30px;bottom:50px}.request-section::after{right:-32px;top:18px}}
+
+/* Program cards: orange backing with blue action buttons. */
+.programs-section .programs::before{background:linear-gradient(120deg,#ff971c,#ff8000)}
+.programs-section .card-body .outline{background:#0960ad;border-color:#0960ad;color:#fff}
+.programs-section .card-body .outline:hover{background:#074c8b;border-color:#074c8b}
+
+/* Mirror only the family frame silhouette and backing, preserving the photo. */
+#dining-image,#dining-image img{border-radius:12% 37% 14% 23%}
+#dining-image::before{inset:-16px 25px 18px -10px;border-radius:10% 42% 14% 24%;transform:rotate(5deg)}
+@media(max-width:760px){#dining-image::before{inset:-9px 20px 15px -8px;border-radius:10% 42% 14% 24%}}
+
+/* Enlarge the orange backing around the program cards. */
+.programs-section .programs::before{inset:-8px -19px -20px -7px}
+@media(max-width:760px){.programs-section .programs::before{inset:-6px -10px -15px -6px}}
+
+/* Family program buttons sit side by side with solid blue fills. */
+.dining .actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dining .outline{background:#0960ad;border-color:#0960ad;color:#fff;padding:12px 10px;line-height:1.35;min-height:52px}
+.dining .outline:hover{background:#074c8b;border-color:#074c8b;color:#fff}
+@media(max-width:420px){.dining .actions{gap:8px}.dining .outline{font-size:11px;padding:11px 8px}}
+
+/* Double the decorative brand symbols. */
+.request-section::before,.request-section::after{width:300px;height:300px}
+@media(max-width:760px){.request-section::before,.request-section::after{width:250px;height:250px}}
+
+/* Full-width benefit band with content aligned to the page grid. */
+.hero-bottom.hero-benefits{width:100%;border-radius:0;margin:26px 0 0;padding:28px 0;box-shadow:none}
+.hero-benefits-inner{width:100%;display:flex;align-items:center}
+@media(max-width:760px){.hero-bottom.hero-benefits{padding:25px 0;margin-top:25px;border-radius:0}}
+
+/* Enlarge and shift the left brand ornament. */
+.request-section::before{width:450px;height:450px;left:-105px}
+@media(max-width:760px){.request-section::before{width:375px;height:375px;left:-95px}}
+
+/* Warm orange benefit band with high-contrast navy content. */
+.hero-bottom.hero-benefits{background:linear-gradient(110deg,#ff9d20,#ff8508)}
+.hero-benefits li,.hero-benefits .hero-benefit-icon{color:#082956}
+
+/* Benefits sit directly on the white page background. */
+.hero-bottom.hero-benefits{background:transparent}
+
+/* Softer pale-blue backing plates throughout the page. */
+.hero-visual,.hero-visual::before,
+.place-section .place-mosaic::before,
+.programs-section .programs::before,
+#dining-image,#dining-image::before{background:#c6def5}
+
+/* One original pale blue for every background and backing plate. */
+:root{--wash:#f2f7fc;--surface-blue:#f2f7fc}
+.wash,
+.hero-visual,.hero-visual::before,
+.place-section .place-mosaic::before,
+.place-section .place-mosaic .media,
+.programs-section,
+.programs-section .programs::before,
+.programs-section .program-card .media,
+#dining-image,#dining-image::before,
+.conditions,
+.journey-panel,
+.faq-card,
+.request-section{background:var(--surface-blue)}
+.place-wave path:first-child{fill:var(--surface-blue)}
+.request-layout h2,.request-layout .request-copy>p,.request-copy a[href^="tel:"]{color:var(--ink)}
+.request-section::before,.request-section::after{opacity:1}
+
+/* Orange benefit icons on the white background. */
+.hero-benefits .hero-benefit-icon{color:var(--orange)}
+
+/* Keep the navigation visible while scrolling. */
+body>header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 3px 14px #08295608}
+@media(max-width:760px){html{scroll-padding-top:96px}}
+
+/* Clear gallery photos without a dark gradient overlay. */
+#photos .gallery .media::after{display:none}
+.gallery-caption{color:var(--ink);background:#fff;border-radius:13px;padding:9px 10px 9px 14px;box-shadow:0 3px 12px #08295612}
+
+/* Plain white gallery captions; the whole photo opens the full image. */
+.gallery-caption{color:#fff;background:transparent;border-radius:0;padding:0;box-shadow:none;text-shadow:0 1px 5px #0009,0 2px 12px #0006}
+.gallery-caption>span{display:none}
+#photo-dialog{max-width:1200px}
+#photo-dialog figure{display:flex;flex-direction:column;align-items:center}
+#large-photo{display:block;width:auto;height:auto;max-width:100%;max-height:75dvh;object-fit:contain}
+@media(max-width:760px){#photo-dialog{max-width:none}#large-photo{max-height:75dvh}}
+
+/* Keep both graduation audiences together on one line. */
+.hero .lead{font-size:clamp(18px,2vw,26px)}
+.hero-audience{white-space:nowrap}
+@media(max-width:760px){.hero .lead{font-size:clamp(17px,4.5vw,23px)}}
+
+/* Larger audience line, sized to stay within the hero column. */
+.hero-copy{min-width:0;container-type:inline-size}
+.hero .hero-audience{display:block;white-space:nowrap;font-size:clamp(18px,6.3cqw,32px);line-height:1.2;font-weight:800;letter-spacing:-.025em}
+
+.hero-audience-conjunction{font-size:.8em;font-weight:700;letter-spacing:normal}
+
+/* Pale orange photo backings on the first and fourth screens. */
+.hero-visual,.hero-visual::before,
+#dining-image,#dining-image::before{background:#ffe2bf}
+
+/* A clearer light orange for the first and fourth photo backings. */
+.hero-visual,.hero-visual::before,
+#dining-image,#dining-image::before{background:#ffc078}
+
+/* Restore the original pale blue on the first and fourth photo backings. */
+.hero-visual,.hero-visual::before,
+#dining-image,#dining-image::before{background:var(--surface-blue)}
+
+/* Consistent orange hover state with blue button labels. */
+.button:hover,
+.outline:hover,
+.programs-section .card-body .outline:hover,
+.dining .outline:hover,
+.request-layout .submit:hover,
+.mobile-bar .button:hover{background:var(--orange);border-color:var(--orange);color:var(--blue)}
+
+/* Start the adult conditions phrase on its own line. */
+.dining h2 br{display:block}
+
+/* Match the request submit button to the other primary buttons. */
+.request-layout .submit{background:var(--blue);border-color:var(--blue);color:#fff;border-radius:12px;box-shadow:none}
+.request-layout .submit:hover{background:var(--orange);border-color:var(--orange);color:var(--blue)}
+
+/* Rotate the crop silhouettes while counter-rotating their images. */
+#hero-image,#dining-image{background:transparent}
+.photo-shape{position:absolute;inset:0;border-radius:inherit;overflow:hidden;z-index:0}
+.photo-shape-hero{transform:rotate(7deg)}
+.photo-shape-family{transform:rotate(-7deg)}
+.photo-shape img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+#hero-image .photo-shape img{border-radius:0;object-position:75% center;transform:rotate(-7deg) scale(1.2)}
+#dining-image .photo-shape img{border-radius:0;object-position:center top;transform:rotate(7deg) scale(1.2)}
+@media(max-width:760px){.hero-visual{margin-top:24px;margin-bottom:26px}#dining-image{margin-top:22px;margin-bottom:26px}}
