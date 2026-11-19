@@ -213,7 +213,7 @@ footer{background:#fff;border-top:0}.footer-bottom{color:#647a91}.mobile-bar .bu
 #dining-image,#dining-image::before{background:#c6def5}
 
 /* One original pale blue for every background and backing plate. */
-:root{--wash:#f2f7fc;--surface-blue:#f2f7fc}
+:root{--surface-blue:#e8f2fc;--wash:var(--surface-blue)}
 .wash,
 .hero-visual,.hero-visual::before,
 .place-section .place-mosaic::before,
