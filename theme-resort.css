@@ -163,8 +163,8 @@ footer{background:#fff;border-top:0}.footer-bottom{color:#647a91}
 /* Brand ornament replaces the generic diamond decorations. */
 .request-section::before,.request-section::after{width:150px;height:150px;border:0;border-radius:0;transform:none;background:url("images/Лого/Знак-белый.svg") center/contain no-repeat;opacity:.25}
 .request-section::before{left:-28px;bottom:42px}
-.request-section::after{right:-32px;top:22px}
-@media(max-width:760px){.request-section::before,.request-section::after{width:125px;height:125px}.request-section::before{left:-30px;bottom:50px}.request-section::after{right:-32px;top:18px}}
+.request-section::after{right:-47px;top:7px}
+@media(max-width:760px){.request-section::before,.request-section::after{width:125px;height:125px}.request-section::before{left:-30px;bottom:50px}.request-section::after{top:3px}}
 
 /* Program cards: orange backing with blue action buttons. */
 .programs-section .programs::before{background:linear-gradient(120deg,#ff971c,#ff8000)}
@@ -195,9 +195,8 @@ footer{background:#fff;border-top:0}.footer-bottom{color:#647a91}
 .hero-benefits-inner{width:100%;display:flex;align-items:center}
 @media(max-width:760px){.hero-bottom.hero-benefits{padding:12px 0;margin-top:14px;border-radius:0}}
 
-/* Enlarge and shift the left brand ornament. */
-.request-section::before{width:450px;height:450px;left:-105px}
-@media(max-width:760px){.request-section::before{width:375px;height:375px;left:-95px}}
+.request-section::before{width:560px;height:560px;left:-200px;bottom:-90px}
+@media(max-width:760px){.request-section::before{width:470px;height:470px;left:-170px;bottom:-55px}}
 
 /* Warm orange benefit band with high-contrast navy content. */
 .hero-bottom.hero-benefits{background:linear-gradient(110deg,#ff9d20,#ff8508)}
